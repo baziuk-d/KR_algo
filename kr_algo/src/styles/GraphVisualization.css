@@ -1,0 +1,19 @@
+#graph-container {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  display: block;
+}
+
+
+circle {
+  cursor: pointer;
+}
+
+line {
+  transition: stroke 0.2s;
+}
+
+line:hover {
+  stroke: red;
+}
